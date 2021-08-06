@@ -34,9 +34,9 @@ buttonHome.addEventListener("click",(event) => {
 	}
 })
 
-function changer(){
-	let image = Math.floor(Math.random() * imageURI.length);
-	body.style.backgroundImage = `url(${imageURI[image]})`;
-}
+// function changer(){
+// 	let image = Math.floor(Math.random() * imageURI.length);
+// 	body.style.backgroundImage = `url(${imageURI[image]})`;
+// }
 
-setInterval(changer,2000);
+// setInterval(changer,2000);
