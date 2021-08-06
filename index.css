@@ -10,7 +10,7 @@
 body{
 	width: 100%;
 	height: 31.2rem;
-	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/home/khalid/Pictures/brooke-cagle-ZG5WKF2Ukxg-unsplash.jpg");
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./images/number1.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
