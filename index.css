@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16pt;
+	font-family: sans-serif;
+}
+
+
+body{
+	width: 100%;
+	height: 31.2rem;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/home/khalid/Pictures/brooke-cagle-ZG5WKF2Ukxg-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p{
+	color: #fff;
+	margin-top: 1rem;
+}
+
+.main{
+	margin-left: 3rem;
+	margin-top: 7rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+h2{
+	color: #fff;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	text-shadow: 0 0 2px #000,
+	             0 0 1px #000;
+}
+
+/*#btn{
+	height: 2rem;
+	outline: none;
+	width: auto;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 2px #fff,
+	             0 0 1px #fff;
+}*/
+
+i{
+	margin-left: -1.6rem;
+	color: #000;
+	text-shadow: 0 0 3px #000,
+	             0 0 4px #000;
+}
+
+input[type=text],input[type=password]{
+	height: 2rem;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	padding-left: 7px;
+	box-shadow: 0 0 2px #000,
+	             0 0 1px #000;
+
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem;
+}
+
+.header h1{
+	color: #fff;
+	font-size: 2rem;
+	text-shadow: 0 0 2px #000,
+	             0 0 1px #000;
+}
+
+.header .tabs{
+	margin: 1rem;
+}
+
+.right-side{
+	margin-top: -5rem;
+	margin-right: 6rem;
+	display: none;
+}
+
+h3{
+	margin-left: 7rem;
+}
+
+.right-side input[type=text],input[type=password]{
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+	border-radius: 9px;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+input[type=button]{
+	width: 100%;
+	height: 2rem;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	color: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.6),
+	            0 0 5px rgba(0,0,0,0.6),
+	            0 0 1px rgba(0,0,0,0.6);
+}
+
+legend{
+	color: #fff;
+	text-shadow: 0 0 2px rgba(0,0,0,0.6),
+	            0 0 5px rgba(0,0,0,0.6),
+	            0 0 1px rgba(0,0,0,0.6);
+}
+
+form{
+	border: 0.1px solid rgba(0,0,0,0.6);
+	border-radius: 20px;
+	height: 20rem;
+	padding: 1rem;
+	box-shadow: 0 0 2px rgba(0,0,0,0.6),
+	            0 0 5px rgba(0,0,0,0.6),
+	            0 0 1px rgba(0,0,0,0.6);
+}
+
+
+button{
+	height: 2rem;
+	width: 5rem;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.6),
+	             0 0 1px rgba(0,0,0,0.6);
+}
+
+button:hover{
+	color: #fff;
+	background-color: #ccc;
+	box-shadow: 0 0 3px rgba(0,0,0,0.6),
+	             0 0 3px rgba(0,0,0,0.6),
+	             0 0 4px rgba(0,0,0,0.6),
+	             0 0 5px rgba(0,0,0,0.6);
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 1rem;
+}
+
+#home{
+	display: none;
+}
+
+@media(max-width: 900px){
+	body{
+		height: 50rem;
+		background-size: cover;
+	}
+	.main{
+		margin-left: 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.right-side{
+		margin-top: 2rem;
+	}
+
+	#active{
+	   display: block;
+    }
+
+    #log{
+    	display: none;
+    }
+
+	#home{
+		display: block;
+	}
+
+	.left-side{
+		display: none;
+	}
+
+	.right-side{
+		margin-left: 1rem;
+		width: 80%;
+		display: block;
+	}
+
+	.header h1{
+		font-size: 1rem;
+	}
+	.header .tabs{
+		margin-left: -4rem;
+		margin-top: 2rem;
+		display: flex;
+	}
+
+	button{
+		margin: 0.2rem;
+		width: auto;
+	}
+
+	a{
+		font-size: 0.8rem;
+	}
+
+	button{
+		height: 2rem;		
+		width: auto;
+		padding: 0.3rem;
+	}
+}

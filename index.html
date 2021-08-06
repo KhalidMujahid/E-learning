@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Responsive Design</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet"  href="/home/khalid/Web development/ichat-tabs/fontawesome-free-5.15.2-web/css/all.css">
+	<script src="./index.js" defer></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>E-learning</h1>
+			<div class="tabs">
+				<a href="#" id="home"><i class="fas fa-home fa-3x"></i></a>
+				<button>Courses</button>
+				<button id="login">Login</button>
+				<button>Sign Up</button>
+			</div>
+		</div>
+		<div class="main">
+			<div class="left-side" id="active">
+			  <h2>Learn Anything <br> You Want</h2>
+			  <input type="text" name="name" placeholder="Search Any Course"><i class="fas fa-search"></i>
+			  <!-- <button id="btn"><i class="fas fa-search"></i></button> --><br>
+			  <p>Over Millions Of Courses</p>
+		   </div>
+		   <div class="right-side" id="log">
+		   	  <form>
+		   	  	<h3><i class="fas fa-user fa-3x"></i></h3>
+		   	  	 <legend>Username</legend>
+		   	  	 <input type="text" name="username" autocomplete="off">
+		   	  	 <legend>Password</legend>
+		   	  	 <input type="password" name="password" autocomplete="off"><br>
+		   	  	 <input type="button"  value="Login">
+		   	  </form>
+		   </div>
+		</div>
+	</div>
+</body>
+</html>
