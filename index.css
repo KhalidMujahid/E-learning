@@ -12,23 +12,12 @@ body{
 	width: 100%;
 	height: auto;
 	/*background-color: rgba(0,0,0.6);*/
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./images/number1.jpg");
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	animation: animate 19s infinite;
+	/*animation: animate 19s infinite;*/
 	background-repeat: no-repeat;
-}
-
-@keyframes animate{
-	0%{
-		background-image: url("./images/number1.jpg");
-	}
-	50%{
-		background-image: url("./images/number3.jpg");
-	}
-	100%{
-		background-image: url("./images/number1.jpg");
-	}
 }
 
 p{
