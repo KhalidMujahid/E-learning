@@ -137,6 +137,8 @@ color: #fff;
 @media(max-width: 900px){
   body{
     overflow: auto;
+    height: auto;
+    width: 100%;
   }
   .login{
     margin: 0;
